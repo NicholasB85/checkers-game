@@ -1,0 +1,64 @@
+.board {
+	width: 496px;
+	height: 496px;
+	display: table;
+}
+
+.boardRow {
+	display: table-row;
+}
+
+.boardRow:nth-of-type(odd) > .boardCol:nth-of-type(odd) > div {
+	background: url(images/wood-light.png);
+}
+
+.boardRow:nth-of-type(odd) > .boardCol:nth-of-type(even) > div {
+	background: url(images/wood-dark.png);
+}
+
+.boardRow:nth-of-type(even) > .boardCol:nth-of-type(odd) > div {
+	background: url(images/wood-dark.png);
+}
+
+.boardRow:nth-of-type(even) > .boardCol:nth-of-type(even) > div {
+	background: url(images/wood-light.png);
+}
+
+.boardCol {
+	display: table-column;
+	float: left;
+}
+
+.boardCol > div {
+	width: 62px;
+	height: 62px;
+	overflow: hidden;
+}
+
+.piece {
+	width: 50px;
+	height: 50px;
+	margin-left: 6px;
+	margin-top: 6px;
+	cursor: pointer;
+}
+
+.piece-black {
+	background: url(images/piece-black.png);
+	background-size: 50px 50px;
+}
+
+.piece-white {
+	background: url(images/piece-white.png);
+	background-size: 50px 50px;
+}
+
+.piece-king-black {
+	background: url(images/piece-king-black.png);
+	background-size: 50px 50px;
+}
+
+.piece-king-white {
+	background: url(images/piece-king-white.png);
+	background-size: 50px 50px;
+}
