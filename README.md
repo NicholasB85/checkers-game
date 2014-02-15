@@ -1,6 +1,6 @@
 # Checkers Gamer with pure JavaScript
 
-![](http://f.cl.ly/items/421f2H0j3m2S213d3A13/checkers-game.png)
+![](http://f.cl.ly/items/1w3N2q1b1W0t0V0R0b0c/checkers-game.png)
 
 ## License
 
