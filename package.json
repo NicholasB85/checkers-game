@@ -1,0 +1,13 @@
+{
+  "name": "checkers-game",
+  "version": "0.0.1",
+  "author": {
+    "name": "Cesar William Alvarenga",
+    "email": "cesarwbr@gmail.com",
+    "url": "https://github.com/cesarwbr"
+  },
+  "dependencies": {
+    "socket.io": "~0.9.16",
+    "express": "~3.4.8"
+  }
+}
