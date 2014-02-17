@@ -1,3 +1,5 @@
+// @autor Cesar William Alvarenga
+
 var Game = function() {
 	var boardTable = document.querySelector('.board');
 	this.start = function() {
